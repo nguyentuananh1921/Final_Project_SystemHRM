@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LoginTests" parallel="false">
+    <test name="LoginTests">
+        <classes>
+            <class name="anhntTest.PageObjectModel.testcases.LoginTest"/>
+        </classes>
+    </test>
+</suite>

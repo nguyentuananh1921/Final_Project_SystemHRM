@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ClientManagementTests" verbose="1" parallel="methods" thread-count="2">
+    <test name="ClientTests">
+        <classes>
+            <class name="anhntTest.PageObjectModel.testcases.ClientsTest">
+                <methods>
+                    <exclude name="testClientCreationFunctionalProcess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="testClientCreationFunctionalProcess">
+        <classes>
+            <class name="anhntTest.PageObjectModel.testcases.ClientsTest">
+                <methods>
+                    <include name="testClientCreationFunctionalProcess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

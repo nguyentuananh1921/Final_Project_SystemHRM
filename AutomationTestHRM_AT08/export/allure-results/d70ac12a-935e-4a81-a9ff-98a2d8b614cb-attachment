@@ -1,0 +1,1 @@
+Hover to element by :  By.xpath: //span[normalize-space()='Home']

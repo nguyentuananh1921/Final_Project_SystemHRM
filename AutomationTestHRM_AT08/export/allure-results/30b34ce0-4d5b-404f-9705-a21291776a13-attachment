@@ -1,0 +1,1 @@
+Hover and Click element by :  By.xpath: //table/tbody/tr[1]//span[@data-original-title='View Details']
